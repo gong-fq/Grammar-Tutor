@@ -1,11 +1,17 @@
-<div align="center">
+# Mr. Gong's AI Grammar Studio - Deployment Guide
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+This app is ready for Masterclass use! Follow these steps to deploy to Netlify:
 
-  <h1>Built with AI Studio</h2>
+1. **Download**: Download all files from this project.
+2. **Netlify Account**: Create a free site on [Netlify](https://www.netlify.com/).
+3. **Deploy**: Drag and drop the folder into Netlify's "Deploy" area.
+4. **Environment Variable**: 
+   - Go to **Site Settings > Environment Variables**.
+   - Add a key named `API_KEY`.
+   - Paste your Google Gemini API key as the value.
+5. **Done**: Your site will be live at `your-site-name.netlify.app`.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+### Features
+- **Auto-Language**: Responses automatically match your input language (English or Chinese).
+- **Audio Feedback**: Professor Gong's AI speaks back corrected sentences.
+- **Mastery Exercises**: Interactive quizzes generated instantly for every correction.

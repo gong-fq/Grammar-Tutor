@@ -1,0 +1,7 @@
+{
+  "name": "Mr. Gong's AI Grammar Tutor",
+  "description": "A bilingual English-Chinese grammar assistant designed for primary and high school students to master English grammar through AI interaction.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
